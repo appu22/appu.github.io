@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="predfined-bootstrap.css">  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+     <!-- <link rel="stylesheet" href="reg1.css"> -->
+</head>
+<body style="background-color: hotpink">
+    <h2>Registration Form</h2>
+
+         <form class="container">
+            <div class="form-group">
+                <label for="usr">First Name:</label>
+                <input type="text" class="form-control" id="usr" placeholder="Enter Name ">
+              </div>
+              <div class="form-group">
+                <label for="usr">Last Name:</label>
+                <input type="text" class="form-control" id="usr" placeholder="Enter Last ">
+              </div>
+              
+              <div class="form-group">
+                <label for="comment">Address:</label>
+                <textarea class="form-control" rows="5" id="comment"></textarea>
+              </div>
+              <div>
+                <div class="radio">
+                    <label><input type="radio" name="optradio">Male</label>
+                  </div>
+                  <div class="radio">
+                    <label><input type="radio" name="optradio">Female</label>
+                  </div>
+                  <div class="radio">
+                    <label><input type="radio" name="optradio">Other</label>
+                  </div>
+              </div>
+              <div>Select Course</div>
+              <div class="checkbox">
+                <label><input type="checkbox" value="">HTML</label>
+              </div>
+              <div class="checkbox">
+                <label><input type="checkbox" value="">CSS</label>
+              </div>
+              <div class="checkbox">
+                <label><input type="checkbox" value="">JAVA SCRIPT</label>
+              </div>
+              <div class="form-group">
+                <label for="sel1">Select course:</label>
+                <select class="form-control" id="sel1">
+                  <option>select</option>
+                  <option>MCA</option>
+                  <option>MSC</option>
+                  <option>M.Tech</option>
+                </select>
+              </div>
+              <label for="usr">Email:</label>
+                <input type="text" class="form-control" id="usr">
+                <label for="usr">Password:</label>
+                <input type="password" class="form-control" id="usr">
+                <label for="usr">Confirm Password:</label>
+                <input type="password" class="form-control" id="usr">
+                <br>
+                <button formaction="login.html" type="submit" class="btn btn-success" >Submit</button>
+                <button type="reset" class="btn btn-success">Reset</button>
+                <br>
+                <br>
+                <div class="container signin">
+                    <p>Already have an account? <a href="login.html">Sign in</a>.</p>
+                  </div>
+<br>
+<br><br><br><br><br>
+         </div>
+         </form>
+
+        
+</body>
+</html>

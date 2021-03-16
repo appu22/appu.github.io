@@ -1,0 +1,17 @@
+.container{
+    text-align: center;
+    padding: 5px;
+} 
+
+body{
+    background-color: aquamarine;
+
+}
+h2{
+    color: black;
+    text-align: center;
+}
+.form-name{
+
+    padding: 100px;
+}

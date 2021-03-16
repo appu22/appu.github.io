@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <h1>Bootstrap 4 Grids </h1>
+    <!---Grid 3 
+        col-lg-4------
+    col-md-6----it is parts 2 paragraphs
+    -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6 bg-success"> 
+                <p>The Bootstrap 4 grid system has five classes:
+                    .col- (extra small devices - screen width less than 576px)
+                    .col-sm- (small devices - screen width equal to or greater than 576px)
+                    .col-md- (medium devices - screen width equal to or greater than 768px)                    
+                    Tip: Each class scales up, so if you wish to set the same widths for sm and md, you only need to specify sm.</p>
+            </div>
+            <div class="col-lg-4">
+                <p> .col-lg- (large devices - screen width equal to or greater than 992px)
+                    .col-xl- (xlarge devices - screen width equal to or greater than 1200px)
+                    The classes above can be combined to create more dynamic and flexible layouts.</p>
+            </div>
+            <div class="col-lg-4 col-sm-6 bg-warning ">
+                <p> The following example shows how to create four equal-width columns starting at tablets and scaling to extra large desktops. 
+                    On mobile phones or screens that are less than 576px wide, the columns will automatically stack on top of each other:</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-*-*"></div>
+    </div>
+    <!-- <div class="container">
+        <div class="row">
+          <div class="col-sm-6 bg-success">
+            <p>tacked-to-horizontal</p>
+        </div>
+        <div class="col-sm-6 bg-warning">
+          <p>Tip: The numbers in the .col-sm-* classes indicates how many columns the div should span (out of 12).
+               So, .col-sm-1 spans 1 column, 
+              .col-sm-4 spans 4 columns, .col-sm-6 spans 6 columns, etc..</p>
+        </div>
+      </div>
+    </div> -->
+
+</body>
+</html>
